@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/70c479346d.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
@@ -118,17 +119,16 @@
         <section class="my-5">
             <div class="row  row-cols-md-1 row-cols-lg-2 g-4">
                 <div class="col">
-
                     <div class="card d-flex  flex-row gap-3">
                         <img class="card-img-top" src="images/course/course-1.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                                lead-in to additional content. This card has even longer content than the first to
+                                show that equal height action.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-
                 </div>
                 <div class="col">
                     <div class="card d-flex  flex-row gap-3">
@@ -201,7 +201,52 @@
 
         </section>
 
+
+
+        <!-- modal -->
+
+        <div class="container bg-primary d-flex my-5">
+            <div class="col-6 p-5 text-white">
+                <h1>Ready To Join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <button class="btn bg-white text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+                    Now</button>
+
+                <!-- Modal Body -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5>Please Sign Up</h5>
+                                <form action="" class="d-flex flex-column w-50">
+                                    <input type="text" placeholder="Your Email" class="mb-2">
+                                    <input type="password" placeholder="Your Password">
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
